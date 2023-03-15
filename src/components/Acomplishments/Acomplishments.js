@@ -14,12 +14,12 @@ const Acomplishments = () => (
  <Section>
   <SectionTitle>Personal Acomplishments</SectionTitle>
   <Boxes>
-    {data.map((card, idx) => {
+    {data.map((card, idx) => (
       <Box key={idx}>
         <BoxNum>{card.number}+</BoxNum>
         <BoxText>{card.text}</BoxText>
       </Box>
-    })}
+    ))}
   </Boxes>
  </Section>
 );

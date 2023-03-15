@@ -14,7 +14,7 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size='3 rem'/>
+        <DiReact size='3rem'/>
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
@@ -24,22 +24,12 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3 rem'/>
+        <DiFirebase size='3rem'/>
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             Experience with <br />
             Node.js and Databases
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiZend size='3 rem'/>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Tools like Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>
