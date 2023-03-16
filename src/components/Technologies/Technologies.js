@@ -1,5 +1,23 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { 
+  DiFirebase, 
+  DiCode, 
+  DiCodeBadge, 
+  DiJavascript1, 
+  DiReact, 
+  DiCss3,
+  DiHtml5,
+  DiBootstrap,
+  DiPostgresql,
+  DiDatabase,
+  DiGithubBadge,
+  DiNodejs,
+  DiNpm,
+  DiResponsive,
+  DiTerminal,
+
+
+} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -7,19 +25,22 @@ const Technologies = () =>  (
   <Section id='tech'>
     <SectionDivider/>
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>_Tecnologías</SectionTitle>
     <SectionText>
-      I´ve worked with a range of technologies in the web developement world.
-      From Front-end to Back-end, as also to Design
+      Trabejé con una variedad de tecnologías en mi carrera como desarrolladora web. 
+      Y me apasiona seguir expandiendo esta lista!
+      <br/>
+      Desde el Front-end hasta el Back-end.
+     
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size='3rem'/>
+        <DiCode size='3rem'/>
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            React.js
+          Experiencia con <br />
+            React.js, Redux.js, Next.js, CSS, HTML, Bootstrap, MaterialUI, webpack.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -28,12 +49,23 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js and Databases
+          Experiencia con <br />
+            Node.js, Express, CORS, dotenv, Morgan, PostgreSQL, Sequelize, Git
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiCodeBadge size='3rem'/>
+        <ListContainer>
+          <ListTitle>Lenguajes</ListTitle>
+          <ListParagraph>
+            Experiencia con<br />
+            JavaScript, TypeScript, HTML, CSS, SQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
+   
   </Section>
 );
 
