@@ -102,9 +102,26 @@ transition: 0.5s;
 `;
 
 export const TagList = styled.ul`
-display: flex;
-justify-content: space-around;
-padding: 2rem;
+list-style-type: none;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+margin: 3rem 0;
+
+@media ${props => props.theme.breakpoints.lg}{
+  grid-template-columns: repeat(3, 1fr);
+  margin: 32px 0;
+}
+
+@media ${props => props.theme.breakpoints.md}{
+  grid-template-columns: repeat(3, 1fr);
+  margin: 32px 0;
+}
+
+@media ${props => props.theme.breakpoints.sm}{
+  grid-template-columns: repeat(3, 1fr);
+  margin: 32px 0;
+}
 `
 export const Tag = styled.li`
 color: #d8bfbf;
