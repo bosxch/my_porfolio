@@ -34,5 +34,12 @@ export const TimeLineData = [
   { year: 2022, text: 'Comencé a cursar el Bootcamp Henry en la carrera Full Stack Web Developer.', },
   { year: 2022, text: 'En Diciembre comencé a trabajar en Microingeniería Aplicada SAS como Profesional Independiente. Sigo en este puesto actualmente.', },
   { year: 2023, text: 'En Febrero terminé el Bootcamp Henry con la aprobación del proyecto Vivero Henry.', },
-  { year: 2023, text: 'Formé parte del equipo de desarrollo de la aplicación para sortes de La Media Naranja.', },
+  { year: 2023, text: 'Formé parte del equipo de desarrollo de la aplicación para sorteos para la empresa Almacenes La Media Naranja como Profesional Independiente.', },
+];
+
+export const data = [
+  { number: 3, text: 'Proyectos Desarrollados'},
+  { number: 3, text: 'Clientes Satisfechos', },
+  { number: 1900, text: 'Github Commits', },
+  { number: 5000, text: 'Github Stars', }
 ];

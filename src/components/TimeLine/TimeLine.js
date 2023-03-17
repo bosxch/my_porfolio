@@ -44,9 +44,9 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>_README</SectionTitle>
       <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+  Me enfoco en crear soluciones escalables y eficientes que brinden una experiencia de usuario excepcional. Estoy siempre en busca de nuevos desafíos y oportunidades para crecer como profesional, y ofrezco participación en todas las etapas del desarrollo de un proyecto, desde la planificación hasta la implementación, brindado todas mis habilidades tecnológicas y personales, así como también mi capacidad de aprendizaje rápido para implementar las mejores tecnologías y mi adaptabilidad para desenvolverme en el ámbito particular con eficiencia y cooperación.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

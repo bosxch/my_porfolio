@@ -9,7 +9,7 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
       <LinkColumn>
-      <LinkTitle>Call</LinkTitle>
+      <LinkTitle>Teléfono</LinkTitle>
       <LinkItem href='tel: 2236162655'>tel: 2236162655</LinkItem>
       </LinkColumn>
       <LinkColumn>
@@ -19,13 +19,13 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one proyect at a time</Slogan>
+          <Slogan>Creando soluciones web eficientes y escalables para un mundo en constante evolución.</Slogan>
         </CompanyContainer>
         <SocialContainer>
-        <SocialIcons href='https://github.com/bosxch'>
+        <SocialIcons href='https://github.com/bosxch' target='_blank'>
         <AiFillGithub size='3rem'/>
       </SocialIcons>
-      <SocialIcons href='in/amparo-cardoso-bosch'>
+      <SocialIcons href='https://www.linkedin.com/in/amparo-cardoso-bosch/' target='_blank'>
         <AiFillLinkedin size='3rem'/>
       </SocialIcons>
       </SocialContainer>

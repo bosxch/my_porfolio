@@ -10,7 +10,7 @@ const Header = () =>  (
     <Div1>
       <Link href='/'>
         <a style={{display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px'}}>
-        <Span style={{'margin-top':'0.5rem'}}>_Bosxch</Span>
+        <Span style={{'margin-top':'0.5rem', 'cursor':'default'}}>_Bosxch</Span>
         </a>
       </Link>
     </Div1>
@@ -27,7 +27,7 @@ const Header = () =>  (
       </li>
       <li>
         <Link href='#about'>
-          <NavLink>README.md</NavLink>
+          <NavLink>README</NavLink>
         </Link>
       </li>
     </Div2>
