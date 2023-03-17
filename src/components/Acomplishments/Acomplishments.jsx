@@ -26,14 +26,14 @@ function ContactPage() {
     e.preventDefault();
     await postMessage()
         setInput({ name: "", email: "", subject: "", message: "" })
-        toast('Mensaje enviado!', {
+        toast('Mensaje enviado! 🚀', {
         position: "top-center",
         autoClose: 2500,
         hideProgressBar: true,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
-        theme: "dark"
+        theme: "colored"
       });
     } 
 
