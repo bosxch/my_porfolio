@@ -3,20 +3,6 @@ import {
   DiFirebase, 
   DiCode, 
   DiCodeBadge, 
-  DiJavascript1, 
-  DiReact, 
-  DiCss3,
-  DiHtml5,
-  DiBootstrap,
-  DiPostgresql,
-  DiDatabase,
-  DiGithubBadge,
-  DiNodejs,
-  DiNpm,
-  DiResponsive,
-  DiTerminal,
-
-
 } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
@@ -60,7 +46,7 @@ const Technologies = () =>  (
           <ListTitle>Lenguajes</ListTitle>
           <ListParagraph>
             Experiencia con<br />
-            JavaScript, TypeScript, HTML, CSS, SQL
+            JavaScript, HTML, CSS, SQL
           </ListParagraph>
         </ListContainer>
       </ListItem>

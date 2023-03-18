@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    background-color: var(--secondary-orange);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: inset 0px 10px 8px 0px #03000048, inset 0px -10px 8px 0px #03000048;
+}
+
+.container h3 {
+    display: block;
+    float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.container h3 :hover {
+    transform: scale(1.3);
+}

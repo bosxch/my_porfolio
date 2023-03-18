@@ -28,7 +28,7 @@ function ContactPage() {
         setInput({ name: "", email: "", subject: "", message: "" })
         toast('Mensaje enviado! 🚀', {
         position: "top-center",
-        autoClose: 2500,
+        autoClose: 2000,
         hideProgressBar: true,
         closeOnClick: true,
         pauseOnHover: true,
