@@ -22,6 +22,7 @@ const Projects = () => {
       {projects.map(({ id, image, title, description, tags, source, visit }) => (
         <BlogCard key={id}>
           <Img 
+          style={{'cursor': 'pointer'}}
           src={image[0]}
           onClick={() => {
             setProject(image);
@@ -29,7 +30,14 @@ const Projects = () => {
           }}
           />
           <TitleContent>
-            <HeaderThree title>//{title}</HeaderThree>
+            <HeaderThree 
+            title 
+            style={{'cursor': 'pointer'}} 
+            onClick={() => {
+            setProject(image);
+            handleOpen();
+          }}
+          >//{title}</HeaderThree>
             <Hr />
           </TitleContent>
           <CardInfo>{description}</CardInfo>

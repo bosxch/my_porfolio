@@ -24,17 +24,17 @@ export const ProjectCard = (props) => {
         <div className={styles.container}> 
             <h3 onClick={handleClose}>X</h3>
             <div className={styles.body}>
-            <h3 onClick={prev}>←</h3>
+            <h3 className={styles.fle} onClick={prev}>←</h3>
                 {imgs.map((img, idx) => {
                 return (
                 <> 
                         {actualImg === idx && (
-                         <Img key={idx} src={img} alt='Imagen proyecto'/>
+                         <Img key={idx} styles={'none'} src={img} alt='Imagen proyecto'/>
                          )}
                 </>
                   )
                 })}
-                <h3 onClick={next}>→</h3>
+                <h3 className={styles.fle} onClick={next}>→</h3>
             </div>
         </div>
     )
