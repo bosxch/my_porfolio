@@ -13,7 +13,6 @@ export const ProjectCard = (props) => {
     const next = () => {
         setActualImage(actualImg === cant - 1 ? 
             0 : actualImg+1 )
-            console.log('si')
     }
 
     const prev = () => {
@@ -24,7 +23,8 @@ export const ProjectCard = (props) => {
     return (
         <div className={styles.container}> 
             <h3 onClick={handleClose}>X</h3>
-            <button onClick={prev}>←</button>
+            <div className={styles.body}>
+            <h3 onClick={prev}>←</h3>
                 {imgs.map((img, idx) => {
                 return (
                 <> 
@@ -34,7 +34,8 @@ export const ProjectCard = (props) => {
                 </>
                   )
                 })}
-                <button onClick={next}>→</button>
+                <h3 onClick={next}>→</h3>
+            </div>
         </div>
     )
 }
