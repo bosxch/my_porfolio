@@ -52,7 +52,7 @@ function ContactPage() {
   }
 
   return (
-    <Section>
+    <Section id='contact'>
       <div className={styles.container}>
         <div>
           <SectionTitle>

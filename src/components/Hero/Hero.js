@@ -31,7 +31,7 @@ const Hero = () => (
     repeat={Infinity} // Repeat this Animation Sequence infinitely
   />
     </SectionText>
-    <Button onClick={() => window.location = '#projects'}>Contáctame!</Button>
+    <Button onClick={() => window.location = '#contact'}>Contáctame!</Button>
   </LeftSection>
  </Section>
 );
