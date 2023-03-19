@@ -4,7 +4,7 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 import { Modal, Box } from "@mui/material";
-import {ProjectCard} from '../ProjectCard/ProjectCard.jsx'
+import {ProjectCard} from '../ProjectCard/ProjectCard'
 import {useState} from 'react'
 
 const Projects = () => {
