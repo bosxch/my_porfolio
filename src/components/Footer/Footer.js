@@ -23,7 +23,7 @@ const Footer = () => {
           <Slogan>Creando soluciones web eficientes y escalables para un mundo en constante evolución.</Slogan>
         </CompanyContainer>
         <SocialContainer>
-        <SocialIcons href='./downloads/CV_Cardoso_Bosch_Amparo.pdf' target='_blank' download='CV Cardoso Bosch Amparo'>
+        <SocialIcons href='./downloads/CV_Cardoso_Bosch_Amparo.pdf' target='_blank'>
         <FcDocument size='3rem'/>
       </SocialIcons>
         <SocialIcons href='https://github.com/bosxch' target='_blank'>
