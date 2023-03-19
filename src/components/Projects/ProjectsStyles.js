@@ -90,15 +90,16 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:#fff;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
 border-radius: 15px;
-transition: 0.5s;
+transition: 0.5s ease;
+box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
 &:hover{
-  background: #801414;
-
+  background:  linear-gradient(270deg, #ff622e 0%, #B133FF 100%);
+  box-shadow: noneL;
 }
 `;
 
@@ -116,15 +117,17 @@ margin: 3rem 0;
 
 @media ${props => props.theme.breakpoints.md}{
   grid-template-columns: repeat(3, 1fr);
-  margin: 32px 0;
+  gap: 5px;
+  margin: 20px 0;
 }
 
 @media ${props => props.theme.breakpoints.sm}{
   grid-template-columns: repeat(3, 1fr);
-  margin: 32px 0;
+  gap: 3px;
+  margin: 10px 0;
 }
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: #9cc9e3;
 font-size: 1.5rem;
 `

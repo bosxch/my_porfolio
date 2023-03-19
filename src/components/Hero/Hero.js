@@ -33,7 +33,7 @@ const Hero = () => (
     </SectionText>
     <Button onClick={() => window.location = '#contact'}>Contáctame!</Button>
     <Button>
-      <a  href='./downloads/CV_Cardoso_Bosch_Amparo.pdf' target='_blank'  style={{'color':'white'}}>Descarga mi CV!</a>
+      <a  href='./downloads/CV_Cardoso_Bosch_Amparo.pdf' target='_blank'  style={{'color':'white'}}>Aquí mi CV!</a>
     </Button>
   </LeftSection>
  </Section>
