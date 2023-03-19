@@ -15,7 +15,7 @@ const Projects = () => {
   
 
   return(
-  <Section nopadding id='projects'>
+  <Section id='projects'>
     <SectionDivider/>
     <SectionTitle main>_Proyectos</SectionTitle>
     <GridContainer>

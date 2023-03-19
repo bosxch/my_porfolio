@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { FcDocument } from "react-icons/fc";
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -22,6 +23,9 @@ const Footer = () => {
           <Slogan>Creando soluciones web eficientes y escalables para un mundo en constante evolución.</Slogan>
         </CompanyContainer>
         <SocialContainer>
+        <SocialIcons href='./downloads/CV_Cardoso_Bosch_Amparo' download>
+        <FcDocument size='3rem'/>
+      </SocialIcons>
         <SocialIcons href='https://github.com/bosxch' target='_blank'>
         <AiFillGithub size='3rem'/>
       </SocialIcons>

@@ -44,9 +44,10 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>_README</SectionTitle>
+      <SectionDivider/>
+      <SectionTitle main>_README</SectionTitle>
       <SectionText>
-  Me enfoco en crear soluciones escalables y eficientes que brinden una experiencia de usuario excepcional. Estoy siempre en busca de nuevos desafíos y oportunidades para crecer como profesional, y ofrezco participación en todas las etapas del desarrollo de un proyecto, desde la planificación hasta la implementación, brindado todas mis habilidades tecnológicas y personales, así como también mi capacidad de aprendizaje rápido para implementar las mejores tecnologías y mi adaptabilidad para desenvolverme en el ámbito particular con eficiencia y cooperación.
+      Me especializo en diseñar soluciones escalables y eficientes que proporcionen una experiencia de usuario excepcional. Siempre estoy en la búsqueda de nuevos desafíos y oportunidades para crecer como profesional, y ofrezco mi colaboración en todas las etapas del desarrollo de un proyecto, desde la planificación hasta la implementación, brindando todas mis habilidades tanto tecnológicas como personales.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

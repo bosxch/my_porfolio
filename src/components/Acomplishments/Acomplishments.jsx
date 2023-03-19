@@ -53,12 +53,13 @@ function ContactPage() {
 
   return (
     <Section id='contact'>
-      <div className={styles.container}>
-        <div>
-          <SectionTitle>
+       <SectionTitle main>
             _Contáctame
           </SectionTitle>
-          <form className={styles.form} onSubmit={submitForm}>
+      <div className={styles.container}>
+        <div>
+         
+          <form className={styles.form} onSubmit={submitForm} autocomplete="off">
             <div className={styles.flex}>
               <div>
                 <SectionText>

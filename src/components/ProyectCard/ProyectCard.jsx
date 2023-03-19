@@ -22,14 +22,13 @@ export const ProjectCard = (props) => {
 
     return (
         <div className={styles.container}> 
-            <h3 onClick={handleClose}>X</h3>
             <div className={styles.body}>
             <h3 className={styles.fle} onClick={prev}>←</h3>
                 {imgs.map((img, idx) => {
                 return (
                 <> 
                         {actualImg === idx && (
-                         <Img key={idx} styles={'none'} src={img} alt='Imagen proyecto'/>
+                         <img className={styles.pop_Img} key={idx} src={img} alt='Imagen proyecto'/>
                          )}
                 </>
                   )
