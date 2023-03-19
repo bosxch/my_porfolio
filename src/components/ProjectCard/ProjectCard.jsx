@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Img } from '../Projects/ProjectsStyles';
-import styles from './ProyectCard.module.css'
+import styles from './ProjectCard.module.css'
 
 export const ProjectCard = (props) => {
     const {
