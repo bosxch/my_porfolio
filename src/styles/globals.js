@@ -31,7 +31,20 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
-
+  body::-webkit-scrollbar {
+    width: 1.5rem;               
+    }
+    
+    body::-webkit-scrollbar-track {
+    background: transparent;        
+    }
+    
+    body::-webkit-scrollbar-thumb {
+    background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%);   
+    border-radius: 1rem;       
+    border: 0.094rem solid transparent;  
+    }
+    
 `;
 
 export default GlobalStyles;
