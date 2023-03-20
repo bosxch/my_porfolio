@@ -1,12 +1,16 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import Head from 'next/head'
 
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  (
-  <nav>
+  <>
+  <Head>
+    <title>Bosxch Porfolio</title>
+  </Head>
  <Container> 
     <Div1>
       <Link href='/'>
@@ -41,7 +45,7 @@ const Header = () =>  (
       </SocialIcons>
     </Div3>
  </Container>
- </nav>
+ </>
 );
 
 export default Header;
