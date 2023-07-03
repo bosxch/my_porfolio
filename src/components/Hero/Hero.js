@@ -1,8 +1,9 @@
 import React from 'react';
+import Link from 'next/link';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, Section } from './HeroStyles';
 import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => (
@@ -33,7 +34,7 @@ const Hero = () => (
     </SectionText>
     <Button onClick={() => window.location = '#contact'}>Contáctame!</Button>
     <Button>
-      <a  href='./downloads/CV_Cardoso_Bosch_Amparo.pdf' target='_blank'  style={{'color':'white'}}>Aquí mi CV!</a>
+      <a href='/pdf/CV_Cardoso_Bosch_Amparo.pdf' target='_blank' style={{'color':'white'}}>Aquí mi CV!</a>
     </Button>
   </LeftSection>
  </Section>
